@@ -28,4 +28,14 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  hello: 'Hello world'
+
+  forum_threads:
+    created: 'Thread was successfully created.'
+    updated: 'Thread was successfully updated.'
+    deleted: 'Thread was successfully deleted.'
+
+  forum_posts:
+    created: 'Post was successfully created.'
+    updated: 'Post was successfully updated.'
+    deleted: 'Post was successfully deleted.'
