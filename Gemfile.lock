@@ -201,7 +201,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.8-x86_64-linux-musl)
       racc (~> 1.4)
-    ostruct (0.1.0)
+    ostruct (0.6.2)
     overcommit (0.68.0)
       childprocess (>= 0.6.3, < 6)
       iniparse (~> 1.4)
@@ -388,7 +388,7 @@ DEPENDENCIES
   faker
   hotwire-livereload
   importmap-rails
-  ostruct (~> 0.1.0)
+  ostruct (~> 0.6.2)
   overcommit
   pg (~> 1.1)
   puma (>= 5.0)
