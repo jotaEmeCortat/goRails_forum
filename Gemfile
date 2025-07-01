@@ -72,6 +72,13 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  # Use the Annotate gem to add comments to models and controllers
+  gem "annotate"
+  # Use the Better Errors gem to provide a better error page
+  gem "better_errors"
+  # Use the Binding of Caller gem to provide better error messages
+  gem "binding_of_caller"
 end
 
 group :test do
@@ -79,3 +86,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "devise", "~> 4.9"

@@ -13,6 +13,7 @@ AllCops:
     - 'tmp/**/*'
     - 'test/**/*'
     - 'vendor/**/*'
+    - 'lib/tasks/auto_annotate_models.rake'
 
 Style/ConditionalAssignment:
   Enabled: false
