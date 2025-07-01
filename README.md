@@ -74,3 +74,22 @@
   ```bash
   rails db:migrate
   ```
+
+- Add routes for forum threads and posts in `config/routes.rb`:
+
+  ```ruby
+  devise_for :users
+
+  resources :forum_threads do
+    resources :forum_posts
+  end
+  ```
+
+  ForumPosts need the `forum_thread_id` to be created, so they are nested under
+  `forum_threads`.
+
+- Generate controllers for forum threads and posts:
+  ```bash
+  rails generate controller ForumThreads
+  rails generate controller ForumPosts
+  ```

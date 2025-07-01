@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
+
+  resources :forum_threads do
+    resources :forum_posts
+  end
+
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
@@ -17,7 +22,6 @@ Rails.application.routes.draw do
   end
 
   # Add your application routes here:
-
 
   # IMPORTANT: Custom error pages MUST be LAST
   # This catch-all route should be at the very end to avoid conflicts

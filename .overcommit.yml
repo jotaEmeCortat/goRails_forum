@@ -9,7 +9,7 @@ PreCommit:
   RuboCop:
     enabled: true
     on_warn: fail # Fail on RuboCop warnings
-    command: ['bundle', 'exec', 'rubocop']
+    command: ['bundle', 'exec', 'rubocop', '--autocorrect']
 
   # SCSS Lint is deprecated - replaced by Stylelint
   # Uncomment and configure Stylelint if needed:
