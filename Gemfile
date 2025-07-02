@@ -44,7 +44,6 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "ostruct", "~> 0.6.2"
-gem "simple_form", github: "heartcombo/simple_form"
 gem "faker"
 
 gem "tailwindcss-rails", "~> 4.0"
